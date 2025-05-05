@@ -56,24 +56,24 @@ Abaixo estão algumas telas que demonstram as funcionalidades da API sendo utili
   <tr>
     <td align="center" valign="top">
       <div style="width: 350px; text-align: left;"><strong>1. Login de Usuário:</strong></div><br/>
-      <img src="image.png" alt="Login de Usuário" width="350"/>
+      <img src="docs/images/image.png" alt="Login de Usuário" width="350"/>
       <br/><em style="text-align: justify; display: inline-block; width: 350px;">Realiza o login de um usuário previamente cadastrado, retornando um token JWT para autenticação nas rotas protegidas.</em>
     </td>
     <td align="center" valign="top">
        <div style="width: 350px; text-align: left;"><strong>2. Listagem de todos os livros:</strong></div><br/>
-      <img src="image-1.png" alt="Listagem de Livros" width="350"/>
+      <img src="docs/images/image-1.png" alt="Listagem de Livros" width="350"/>
       <br/><em style="text-align: justify; display: inline-block; width: 350px;">Exibe todos os livros cadastrados no sistema. Esta rota não requer autenticação.</em>
     </td>
   </tr>
   <tr>
     <td align="center" valign="top">
        <div style="width: 350px; text-align: left;"><strong>3. Ver um livro específico:</strong></div><br/>
-      <img src="image-2.png" alt="Ver Livro Específico" width="350"/>
+      <img src="docs/images/image-2.png" alt="Ver Livro Específico" width="350"/>
       <br/><em style="text-align: justify; display: inline-block; width: 350px;">Busca e exibe os detalhes de um livro específico utilizando seu ID.</em>
     </td>
     <td align="center" valign="top">
        <div style="width: 350px; text-align: left;"><strong>4. Devolução do empréstimo:</strong></div><br/>
-      <img src="image-3.png" alt="Devolução de Empréstimo" width="350"/>
+      <img src="docs/images/image-3.png" alt="Devolução de Empréstimo" width="350"/>
       <br/><em style="text-align: justify; display: inline-block; width: 350px;">Registra a devolução de um livro emprestado. Requer autenticação do usuário que realizou o empréstimo.</em>
     </td>
   </tr>
