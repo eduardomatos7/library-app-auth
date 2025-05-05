@@ -2,7 +2,7 @@ const uuid = require('uuid').v4
 const bcrypt = require('bcrypt')
 
 const users = [
-    { id: '1', name: 'eduardo', email: 'emfs@email.com', password: '123456' },
+    { id: '1', name: 'eduardo', email: 'emfs@email.com', password: bcrypt.hashSync('123456', 10) },
 ]
 
 module.exports = {
